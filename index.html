@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/221dca6030.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="sass-css/main.css">
+</head>
+
+<body>
+
+
+    <div class="nav-container">
+
+        <header>
+
+            <a href="index.html" class="logo-nav" id="logo-nav"> <img src="./pictures/logo-gr.svg" alt="logo-navbar"></a>
+
+            <nav class="navbar">
+
+                <ul class="nav-menu">
+                    <li class=nav-item><a href="#" class="nav-link">Home</a></li>
+                    <li class=nav-item><a href="#about_anchor" class="nav-link">About me</a></li>
+                    <li class=nav-item><a href="#portfolio_anchor" class="nav-link">Portfolio</a></li>
+                    <li class=nav-item id="cta-nav"><a href="#letstalk_anchor" class="nav-link">Get in touch</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar" id="middle-bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </nav>
+
+        </header>
+
+    </div>
+
+
+
+    <!-- HERO SECTION  -->
+
+    <section class="hero">
+
+        <div class="content">
+            <h2>From your idea<br>to a <br>beautiful website</h2>
+            <div class="ui-ux-front-end">
+                <p>UI/UX Design & Front-End Development</p>
+            </div>
+
+            <div class="cta-hero">
+                <a href="#letstalk_anchor" class="cta-hero-btn">Get in touch</a>
+            </div>
+            <div class="watermark-hero">
+                <img src="./pictures/watermark-hero.svg" alt="watermark-hero">
+            </div>
+
+            <div class="hero-pic"><img src="./pictures/javascript_illustration.png" alt="hero-img"></div>
+        </div>
+
+
+    </section>
+
+
+    <!-- ABOUT ME SECTION -->
+
+    <section class="about-me" id="about_anchor">
+        <div class="watermark-abt-me">
+            <p>About<br>me</p>
+
+        </div>
+        <div class="me-img-mobile"><img src="./pictures/me-img-mobile.png" alt="me-img-mobile"></div>
+        <div class="me-img"><img src="./pictures/me-pic.png" alt="me-img"></div>
+
+        <div class="left">
+            <h1 class="Abt-me" >About me</h1>
+            <p class="Abt-me-1">Hi, my name is Sebastian.</p>
+            <p class="Abt-me-2">I’m a freelance UX/UI Designer and Front End Developer from Vienna living in Cracow,
+                specializing in HTML and CSS, but don't shy away from javascript.</p>
+            <p class="Abt-me-3">
+            <p>When i’m not coding or pushing pixels, you’ll find me doing some kind of sport or at the movies.</p>
+
+        </div>
+
+
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <section class="portfolio" id="portfolio_anchor">
+        <div class="watermark-portfolio">
+            <p>Portfolio</p>
+        </div>
+        <div class="content-portfolio">
+            <h1 class="Portfolio-header">Portfolio</h1>
+            <p>This webpage is my only reference for now, if you feel comfortable enough to <a href="#letstalk_anchor"
+                    class="hire-me-port"> <span class="hire-me"> hire me </span></a>, that’s great,
+                if not - check again in some time for new projects.</p>
+        </div>
+    </section>
+
+
+    <!-- CONTACT ME SECTION -->
+
+    <section class="lets-talk" id="letstalk_anchor">
+        <div class="lets-talk-watermark">
+            <p>Let's talk</p>
+        </div>
+        <div class="lets-talk-txt">
+            <h1>Let's talk</h1>
+        </div>
+
+
+
+        <div class="contact-container">
+            <div class="contact-form-left">
+                <form action="https://formsubmit.co/sebastian.chm@icloud.com" method="POST" />
+                <label for="name">Full Name</label><br>
+                <input type="text" name="name" class="name" required> <br>
+                <label for="email">Email Address</label><br>
+                <input type="email" name="email" class="form-mail" required><br>
+                <label for="email">Your Message</label><br>
+                <textarea class="form-message" name="Message" rows="10" required></textarea><br>
+                <button type="submit" id="sub-but">Submit</button>
+                </form>
+
+            </div>
+
+
+            <div class="contact-form-right">
+                <p>You can also contact me by emailing <br> directly below:</p>
+                <i class="far fa-envelope"></i>
+                <a id="mail" href="mailto:sebastian.chm@icloud.com">sebastian.chm@icloud.com</a><br>
+
+                <img src="./pictures/pngwing 1.png" alt="paperplane-icon" class="plane">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <a href="#" class="logo-footer"><img src="./pictures/logo-solo-gr.svg" alt="logo-footer"></a>
+
+        <ul class="footer-menu">
+            <li class=footer-item><a href="#" class="footer-link">Home</a></li>
+            <li class=footer-item><a href="#about_anchor" class="footer-link">About me</a></li>
+            <li class=footer-item><a href="#portfolio_anchor" class="footer-link">Portfolio</a></li>
+            <li class=footer-item><a href="#letstalk_anchor" class="footer-link">Contact</a></li>
+        </ul>
+
+
+
+
+    </div>
+
+    <script src="JAVA/script.js"></script>
+</body>
+
+</html>
